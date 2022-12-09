@@ -8,5 +8,5 @@ jQuery(document).ready(async ()=> {
 	const response = await fetch("https://dog.ceo/api/breeds/image/random");
 	$img.attr('src', (await response.json()).message);
 	
-	$("#cataas-img").click(() => location.href = arr.getRandom());
+	$img.click(() => location.href = arr.getRandom());
 });
