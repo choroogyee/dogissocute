@@ -18,4 +18,5 @@ function disableclick(e){
     }
 }
 
-document.onselectstart = function(){alert('저작권 방지를위해 드래그는 사용하실수 없습니다.'); return false;}
+document.onselectstart = 
+    function(){alert('저작권 방지를위해 드래그는 사용하실수 없습니다.'); return false;}
