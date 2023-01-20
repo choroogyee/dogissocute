@@ -40,7 +40,7 @@ $(document).ready(function(){
 			return false;
 		}
 	});
-   	$("#cataas-img").on('contextmenu', event => {
+   	$("#dogaas-img").on('contextmenu', event => {
 		swal({
 			title: '경고!',
 			text: '이미지 저작권 보호를위해 우클릭을 사용할수 없습니다.',
@@ -49,7 +49,7 @@ $(document).ready(function(){
 		event.preventDefault();
 		return false;
 	});
-	$("#cataas-img").on('dragstart', event => {
+	$("#dogaas-img").on('dragstart', event => {
 		swal({
 			title: '경고!',
 			text: '이미지 저작권 를 위해 드래그를 사용할수 없습니다.',
